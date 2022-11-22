@@ -38,11 +38,10 @@
     		<version>1.49</version>
     		<scope>test</scope>
 		</dependency>
-
   </dependencies>
   
   <build>
-  <finalName>samplemaven--001</finalName>
+  <finalName>LibreEx12A</finalName>
   	<plugins>
   		<plugin>
   		 <groupId>org.apache.maven.plugins</groupId>
