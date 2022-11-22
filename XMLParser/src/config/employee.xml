@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- well-formed document -->
+<employees
+	xmlns="http://www.77global.org/accounting/employees"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.77global.org/accounting/employees employee.xsd">
+	<employee>
+		<lastname>LUNA</lastname>
+		<firstname>Juan</firstname>
+		<gender>male</gender>
+		<age>50</age>
+		<bday>1978-10-30</bday>
+	</employee>
+	<employee id="101" position="Manager"
+		location="Makati Warehouse">
+		<firstname>Jose</firstname>
+		<lastname>RIZAL</lastname>
+		<age>19</age>
+		<gender>male</gender>
+		<salary>11000.00</salary>
+		<bday>1978-10-30</bday>
+	</employee>
+	<employee id="100">
+		<firstname>Melchora</firstname>
+		<lastname>AQUINO</lastname>
+		<age>69</age>
+		<gender>female</gender>
+		<bday>1978-10-30</bday>
+	</employee>
+
+	<company>
+		77 Global
+		<country>USA</country>
+		<address>Pasig City</address>
+	</company>
+
+	<batch year="2000">Batch 1</batch>
+
+
+</employees>
